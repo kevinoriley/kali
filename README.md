@@ -1,3 +1,5 @@
+- Complete setup script
+```
 #!/bin/bash
 TMUX_CONF="$(pwd)/.tmux.conf"
 
@@ -31,9 +33,9 @@ chmod +x kali-setup-script.sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 echo "Press CTRL+A and CTRL+I to install logging. Use CTRL+P to enable logging"
+```
 
----
-
+- Just the .tmux.conf
 ```
 set -g prefix C-a
 bind C-a send-prefix
