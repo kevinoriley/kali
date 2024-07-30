@@ -18,7 +18,7 @@ echo ""
 echo 'bind-key j command-prompt -p "Join pane from:" "join-pane -s :'\''%%'\''"'
 echo 'bind-key s command-prompt -p "Send pane to:" "join-pane -t :'\''%%'\''"'
 echo ""
-echo 'bind \\\\ split-window -h -c "#{pane_current_path}"'
+echo 'bind \\ split-window -h -c "#{pane_current_path}"'
 echo 'bind - split-window -v -c "#{pane_current_path}"'
 echo "unbind '\"'"
 echo "unbind %"
