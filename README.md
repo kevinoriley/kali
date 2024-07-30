@@ -32,4 +32,3 @@ CTRL+A and SHIFT+I to install logging plugin
 
 CTRL+A SHIFT+P to enable logging in-session
 ```
-9
