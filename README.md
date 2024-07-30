@@ -30,8 +30,13 @@ chmod +x kali-setup-script.sh
 
 ./kali-setup-script.sh
 
+sudo apt install bluetooth bluez bluez-tools rfkill
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo "Press CTRL+A and CTRL+I to install logging. Use CTRL+P to enable logging"
-echo "Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
+echo "-Press CTRL+A and CTRL+I to install logging"
+echo "-Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
+echo "-Pair a bluetooth mouse"
 ```
