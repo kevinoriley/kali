@@ -41,6 +41,10 @@ sudo systemctl start bluetooth
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+wget https://github.com/BloodHoundAD/BloodHound/releases/download/v4.3.1/BloodHound-linux-x64.zip
+unzip BloodHound-linux-x64.zip
+sudo mv BloodHound-linux-x64 /opt/
+
 echo "-Press CTRL+A and CTRL+I to install logging"
 echo "-Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
 echo "-Pair a bluetooth mouse"
