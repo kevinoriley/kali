@@ -46,11 +46,12 @@ unzip BloodHound-linux-x64.zip
 sudo mv BloodHound-linux-x64 /opt/
 
 sudo apt install pipx
-pipx install bbot
-pipx ensurepath
+sudo pipx install bbot
+sudo pipx ensurepath
 
 echo "-Press CTRL+A and CTRL+I to install logging"
 echo "-Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
+echo "-Run kali-tweaks to set console prompt to one-line"
 echo "-Pair a bluetooth mouse"
 
 ```
