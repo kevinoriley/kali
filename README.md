@@ -49,6 +49,8 @@ sudo apt install pipx
 sudo pipx install bbot
 sudo pipx ensurepath
 
+sudo apt-get install shutter
+
 echo "-Press CTRL+A and CTRL+I to install logging"
 echo "-Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
 echo "-Run kali-tweaks to set console prompt to one-line"
