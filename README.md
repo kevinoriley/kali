@@ -1,2 +1,1 @@
-- Complete setup script
 - I guess change the home directory path on line 37 if you want the exact same Kali setup as me, for some reason 
