@@ -1,4 +1,5 @@
 - Complete setup script
+- I guess change the home directory path on line 43 if you want the exact same Kali setup as me, for some reason 
 ```
 #!/bin/bash
 TMUX_CONF="$(pwd)/.tmux.conf"
@@ -39,7 +40,7 @@ sudo apt install bluetooth bluez bluez-tools rfkill
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm /home/kevin/.tmux/plugins/tpm
 
 wget https://github.com/BloodHoundAD/BloodHound/releases/download/v4.3.1/BloodHound-linux-x64.zip
 unzip BloodHound-linux-x64.zip
@@ -52,7 +53,7 @@ sudo pipx ensurepath
 sudo apt-get install shutter
 
 echo "-Press CTRL+A and CTRL+I to install logging"
-echo "-Grab wallpaper from https://github.com/blacklanternsecurity/kali-setup-script/blob/master/bls_wallpaper.png"
+echo "-Change wallpaper"
 echo "-Run kali-tweaks to set console prompt to one-line"
 echo "-Pair a bluetooth mouse"
 
