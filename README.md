@@ -30,12 +30,6 @@ echo "run-shell /opt/tmux-logging/logging.tmux"
 echo "run '~/.tmux/plugins/tpm/tpm'"
 } > "$TMUX_CONF"
 
-wget https://raw.githubusercontent.com/blacklanternsecurity/kali-setup-script/45e17a71ff02f4dc2728da91bbc9b5c0b287c90c/kali-setup-script.sh
-
-chmod +x kali-setup-script.sh
-
-./kali-setup-script.sh
-
 sudo apt install bluetooth bluez bluez-tools rfkill
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
@@ -52,9 +46,14 @@ sudo pipx ensurepath
 
 sudo apt-get install shutter
 
+echo "-----NEXT STEPS-------------------------------------"
 echo "-Press CTRL+A and CTRL+I to install logging"
 echo "-Change wallpaper"
 echo "-Run kali-tweaks to set console prompt to one-line"
+echo "-Install Wappalyzer + FoxyProxy"
+echo "-Reduce terminal transparency"
+echo "-Install Burp Pro"
+echo "-Set up neo4j"
 echo "-Pair a bluetooth mouse"
-
+echo "----------------------------------------------------"
 ```
