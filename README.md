@@ -1,5 +1,5 @@
 - Complete setup script
-- I guess change the home directory path on line 43 if you want the exact same Kali setup as me, for some reason 
+- I guess change the home directory path on line 37 if you want the exact same Kali setup as me, for some reason 
 ```
 #!/bin/bash
 TMUX_CONF="$(pwd)/.tmux.conf"
