@@ -37,10 +37,6 @@ wget https://github.com/BloodHoundAD/BloodHound/releases/download/v4.3.1/BloodHo
 unzip BloodHound-linux-x64.zip
 sudo mv BloodHound-linux-x64 /opt/
 
-sudo apt install pipx
-sudo pipx install bbot
-sudo pipx ensurepath
-
 sudo apt-get install shutter
 
 echo "-----NEXT STEPS-------------------------------------"
