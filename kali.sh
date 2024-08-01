@@ -40,7 +40,7 @@ sudo mv BloodHound-linux-x64 /opt/
 sudo apt-get install shutter
 
 echo "-----NEXT STEPS-------------------------------------"
-echo "-Press CTRL+A and CTRL+I to install logging"
+echo "-Press CTRL+A and SHIFT+I to install logging"
 echo "-Change wallpaper"
 echo "-Run kali-tweaks to set console prompt to one-line"
 echo "-Install Wappalyzer + FoxyProxy"
